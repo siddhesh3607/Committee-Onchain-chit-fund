@@ -1,4 +1,4 @@
-# Committee · Avalanche Fuji
+# Committee
 
 A verified factory is deployed at `0xb669cf7b3938df35938e0b813cf4ce61258a31da`. Load that address in the app to create a new circle, or deploy your own. Actual public-network results, failed timing assertions and fund returns are in [LIVE_FUJI_REPORT.md](LIVE_FUJI_REPORT.md).
 
