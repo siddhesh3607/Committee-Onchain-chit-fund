@@ -1,0 +1,555 @@
+{
+  "chainId": 43113,
+  "factory": "0xb669cf7b3938df35938e0b813cf4ce61258a31da",
+  "members": [
+    "0xa29727D02Eae69bF10Ee311cD365eB9f2B076ed1",
+    "0x3A984fb2ADB8Ef4C3d3d3319Bb1F193bcD52a298",
+    "0xd0B4B02eB8482cF703df9D1A7cAb043b99bb3839",
+    "0x7ACbaaE5E62F5a6792A67d3dE295a854D26f2E26",
+    "0x61E0bf472500131c500a6B11FA2Ac1374256b0C3"
+  ],
+  "transactions": [
+    {
+      "label": "fund-member-2",
+      "hash": "0x332756ef763d19c26dc201e968de6b78329340789e7459c459be9dd52b180c20",
+      "status": "success",
+      "blockNumber": 60961383,
+      "gasUsed": "21000",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "fund-member-3",
+      "hash": "0xcba94808c260704aaa3bbb29b091379fa3c4642fafd2a26ed21e610dd182407c",
+      "status": "success",
+      "blockNumber": 60961392,
+      "gasUsed": "21000",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "fund-member-4",
+      "hash": "0xa8eb9f94cdc0bc2270e766ce434e8b1d9fa7e47999485c25ed88d96ea2fdd80c",
+      "status": "success",
+      "blockNumber": 60961397,
+      "gasUsed": "21000",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "fund-member-5",
+      "hash": "0xfe80b9dfa90fed99ec9e795c758f15a72e8be248a77811854112a5deb2a80a98",
+      "status": "success",
+      "blockNumber": 60961403,
+      "gasUsed": "21000",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "create-circle",
+      "hash": "0x53de13a4878129cb082075641fa81e548cbe0fe412aa948a0e0f7cc94d3020f9",
+      "status": "success",
+      "blockNumber": 60961407,
+      "gasUsed": "1679478",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "join-member-1",
+      "hash": "0x4d4e422f2617fc56d5964c8247ab2fc3ea550e7db131507d02faf4fb459a00b7",
+      "status": "success",
+      "blockNumber": 60961410,
+      "gasUsed": "116152",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "join-member-2",
+      "hash": "0x777f6d17a00d0af1958c3575c747d64c1f34669f5e0899292a489bee853e05a6",
+      "status": "success",
+      "blockNumber": 60961417,
+      "gasUsed": "99052",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "join-member-3",
+      "hash": "0x98a2796c6c74d528c5efb9aabef26b549c8791bac22ca67dfdd5c076dd3c14fd",
+      "status": "success",
+      "blockNumber": 60961468,
+      "gasUsed": "99052",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "join-member-4",
+      "hash": "0x3aa6288585fdb9dbd6a6859206404ba23b7725fd56115ad06cc003fcf1c9db19",
+      "status": "success",
+      "blockNumber": 60961474,
+      "gasUsed": "99052",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "join-member-5",
+      "hash": "0x2f94ea0598b284b8e7559de44594cc582554c9bdaea99067cd0850a3860c184b",
+      "status": "success",
+      "blockNumber": 60961479,
+      "gasUsed": "99052",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "start-circle",
+      "hash": "0xb3d0b0b959c50f6563d3a8a4d5ef461138deeeb660c4792e553a1c3202e73e6b",
+      "status": "success",
+      "blockNumber": 60961482,
+      "gasUsed": "91133",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "r1-contribute-1",
+      "hash": "0x92e8ac6eaa53e2dc609e93038a700fe772fff5136365ff546fbffb1c6a4b48ba",
+      "status": "success",
+      "blockNumber": 60961488,
+      "gasUsed": "59051",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "r1-contribute-2",
+      "hash": "0x057206df9ec33187ed38f744e1a2d4e7b1754fc91c046b0a8d3960077ccc1930",
+      "status": "success",
+      "blockNumber": 60961488,
+      "gasUsed": "59051",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "r1-contribute-3",
+      "hash": "0x17042177f7f810314e53fca76cfff90655a6a514038ede926042ee1675b482b2",
+      "status": "success",
+      "blockNumber": 60961488,
+      "gasUsed": "59051",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "r1-contribute-4",
+      "hash": "0x38158b96bd5b41b920ee4bf83998195952b38097b39a351eccea5e3c874f610a",
+      "status": "success",
+      "blockNumber": 60961488,
+      "gasUsed": "59051",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "r1-contribute-5",
+      "hash": "0xc6afb9e4ef5a41e6d536569e1796df55dbba518d45b307625e4cb3fb7f221cd7",
+      "status": "success",
+      "blockNumber": 60961488,
+      "gasUsed": "59051",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "r1-commit-1",
+      "hash": "0x3ed8b0ca239ea84fec58eda8c3d78f6528def1a42e1d62c66e337c18454993cc",
+      "status": "success",
+      "blockNumber": 60961513,
+      "gasUsed": "57919",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "r1-settle",
+      "hash": "0xafa2f723857bd953f45e1994784338c24e366de4c2b56bdc4ec2838a66289a75",
+      "status": "success",
+      "blockNumber": 60992351,
+      "gasUsed": "158985",
+      "gasPriceWei": "156"
+    },
+    {
+      "label": "withdraw-first-prize",
+      "hash": "0xe499e9386de88d10f78eb7ec7ba9a3e742d73c45d4d5455fcd2a46eb585904db",
+      "status": "success",
+      "blockNumber": 60992357,
+      "gasUsed": "43143",
+      "gasPriceWei": "156"
+    },
+    {
+      "label": "r2-contribute-1",
+      "hash": "0x49a87ad54d1e670a6ae9674c02989799b64d0ab1b062bde1464ca9b8bbcf5c71",
+      "status": "success",
+      "blockNumber": 60992365,
+      "gasUsed": "59051",
+      "gasPriceWei": "156"
+    },
+    {
+      "label": "r2-contribute-2",
+      "hash": "0x31395182a55e6d6af05f3939d045c267d7905f616b579bdda2a5165e2328369f",
+      "status": "success",
+      "blockNumber": 60992365,
+      "gasUsed": "59051",
+      "gasPriceWei": "156"
+    },
+    {
+      "label": "r2-contribute-3",
+      "hash": "0xf53a943c362e71e4ebeeedd91352ca395d03769531d303597f5c3c04f4d05258",
+      "status": "success",
+      "blockNumber": 60992365,
+      "gasUsed": "59051",
+      "gasPriceWei": "156"
+    },
+    {
+      "label": "r2-contribute-4",
+      "hash": "0x91be6d0dfbfbba8289169016b893a095f6938eeb1c68330b1598665834930889",
+      "status": "success",
+      "blockNumber": 60992365,
+      "gasUsed": "59051",
+      "gasPriceWei": "156"
+    },
+    {
+      "label": "r2-commit-2",
+      "hash": "0xe77c18c40739a3b9ac19c6885c5c3bcb2ea4a478a4dde25e0a5cb533e216aab5",
+      "status": "success",
+      "blockNumber": 60992390,
+      "gasUsed": "57919",
+      "gasPriceWei": "156"
+    },
+    {
+      "label": "r2-reveal-2",
+      "hash": "0xe9819c778909493eb62d50c39a651f35785533b512a1b106bf401ec81e45c41a",
+      "status": "success",
+      "blockNumber": 60992418,
+      "gasUsed": "79370",
+      "gasPriceWei": "156"
+    },
+    {
+      "label": "r2-settle",
+      "hash": "0x66302ca5fa93b0acc00c034dcd37807d4ead32e16ed45ba9ccc1997937e7b109",
+      "status": "success",
+      "blockNumber": 60992434,
+      "gasUsed": "367475",
+      "gasPriceWei": "159"
+    },
+    {
+      "label": "r3-contribute-1",
+      "hash": "0xc046b85fb04f15536fbdb90172fbbd89b78ec5fb3db6fcff91ad3257086eaedc",
+      "status": "success",
+      "blockNumber": 60992441,
+      "gasUsed": "61851",
+      "gasPriceWei": "159"
+    },
+    {
+      "label": "r3-contribute-2",
+      "hash": "0x6cadeae541defcd69ecb8cf3c63143528be76a49aebbcff7e25c8106950faf9e",
+      "status": "success",
+      "blockNumber": 60992441,
+      "gasUsed": "59051",
+      "gasPriceWei": "159"
+    },
+    {
+      "label": "r3-contribute-3",
+      "hash": "0x9091016e04af5f56efb873e274b1281c2d7acba6a068ff1f34c8631930e27490",
+      "status": "success",
+      "blockNumber": 60992441,
+      "gasUsed": "61851",
+      "gasPriceWei": "159"
+    },
+    {
+      "label": "r3-contribute-4",
+      "hash": "0x033a7dd162374cd9e95ec63372797342c96cab79509e25a7a811b10cbd910cf0",
+      "status": "success",
+      "blockNumber": 60992441,
+      "gasUsed": "61851",
+      "gasPriceWei": "159"
+    },
+    {
+      "label": "r3-contribute-5",
+      "hash": "0xdfca6e23ea8fa30b375455da1c20f075af72362edfeaeb6cb58c3cf0af994325",
+      "status": "success",
+      "blockNumber": 60992441,
+      "gasUsed": "61851",
+      "gasPriceWei": "159"
+    },
+    {
+      "label": "r3-commit-3",
+      "hash": "0xecc0aa9e3696c07f6d148264bcea96b3be13bceb6e6532754e91e22e6e024166",
+      "status": "success",
+      "blockNumber": 60992470,
+      "gasUsed": "57919",
+      "gasPriceWei": "155"
+    },
+    {
+      "label": "r3-reveal-3",
+      "hash": "0x5e29898d4efb29d6a2fa0ab42c4dce5b09183b358f7e9632feaf80c1854ed71e",
+      "status": "success",
+      "blockNumber": 60992498,
+      "gasUsed": "79370",
+      "gasPriceWei": "155"
+    },
+    {
+      "label": "r3-settle",
+      "hash": "0x4a7bc090316f8b1bf2340d0d615aed71f182ccf5a72774d0acd89c46958543dc",
+      "status": "success",
+      "blockNumber": 60992513,
+      "gasUsed": "299777",
+      "gasPriceWei": "161"
+    },
+    {
+      "label": "r4-contribute-1",
+      "hash": "0x22451e4a8790d8ea12071ad6104350d985dc31034cd0711cdad8537fd5d261f0",
+      "status": "success",
+      "blockNumber": 60992519,
+      "gasUsed": "61851",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "r4-contribute-2",
+      "hash": "0x840572123b174c682b10f2722c16058a5684680d20bb890f92752b9c18ca44f0",
+      "status": "success",
+      "blockNumber": 60992519,
+      "gasUsed": "61851",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "r4-contribute-3",
+      "hash": "0x53b7e8ad86128a48c5d062ef8194ff112949ab7640c1fe4bf3a2a9b8d1980162",
+      "status": "success",
+      "blockNumber": 60992519,
+      "gasUsed": "59051",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "r4-contribute-4",
+      "hash": "0x8fd3cf7fe130ce2763ee2df9bd41de0127e0658f74b39f35f591c72d5e7228c1",
+      "status": "success",
+      "blockNumber": 60992519,
+      "gasUsed": "61851",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "r4-contribute-5",
+      "hash": "0x115013685ac812e298f8d8163a94ae5748ba2f2a643b66a75cb344a7f0ae776f",
+      "status": "success",
+      "blockNumber": 60992519,
+      "gasUsed": "61851",
+      "gasPriceWei": "160"
+    },
+    {
+      "label": "r4-commit-4",
+      "hash": "0xf45b933a0c1fb857c9d54840f5fc5a06eadcd1981a634e5c9b81c8377c5a9d49",
+      "status": "success",
+      "blockNumber": 60992551,
+      "gasUsed": "57919",
+      "gasPriceWei": "155"
+    },
+    {
+      "label": "r4-reveal-4",
+      "hash": "0x8b439341356e0968aa0f8ac45825389500010b233502716f72a68cbacfb66252",
+      "status": "success",
+      "blockNumber": 60992570,
+      "gasUsed": "79370",
+      "gasPriceWei": "156"
+    },
+    {
+      "label": "r4-settle",
+      "hash": "0x562a88e2bdacc0b3a0219c4cc034e8cf923496e6192e13d7e550c097b56201b1",
+      "status": "success",
+      "blockNumber": 60992593,
+      "gasUsed": "297407",
+      "gasPriceWei": "155"
+    },
+    {
+      "label": "r5-contribute-1",
+      "hash": "0xc3e8a4b46d2daa51df76fea459ea10ff8aa6c525fa8a5b459c04dcbcda8a4a34",
+      "status": "success",
+      "blockNumber": 60992601,
+      "gasUsed": "61851",
+      "gasPriceWei": "155"
+    },
+    {
+      "label": "r5-contribute-2",
+      "hash": "0x609e4407a0c1eb2df4164ebeb8c50461223eb7b527853e63781485f958587da7",
+      "status": "success",
+      "blockNumber": 60992601,
+      "gasUsed": "61851",
+      "gasPriceWei": "155"
+    },
+    {
+      "label": "r5-contribute-3",
+      "hash": "0x0a37faf3016b978829845190dcebaae653c0e7e6d21cd8e4c2cedb40f236e672",
+      "status": "success",
+      "blockNumber": 60992601,
+      "gasUsed": "61851",
+      "gasPriceWei": "155"
+    },
+    {
+      "label": "r5-contribute-4",
+      "hash": "0x821bcee02eda4aa29d61937d93bc90667e7b88a9238f62eefe255e46a4fcefa8",
+      "status": "success",
+      "blockNumber": 60992601,
+      "gasUsed": "59051",
+      "gasPriceWei": "155"
+    },
+    {
+      "label": "r5-contribute-5",
+      "hash": "0x479cedf168116a1b9c4d6fc65b1d29e5ab625b2cb504f6d1ca16f7b6064a57f8",
+      "status": "success",
+      "blockNumber": 60992601,
+      "gasUsed": "61851",
+      "gasPriceWei": "155"
+    },
+    {
+      "label": "r5-commit-5",
+      "hash": "0x6f25460e647798caf92218f022406fda18bc6913cc40fbbfde53cd202d95b562",
+      "status": "success",
+      "blockNumber": 60992628,
+      "gasUsed": "57907",
+      "gasPriceWei": "155"
+    },
+    {
+      "label": "r5-reveal-5",
+      "hash": "0x08bdd6f350576f48aefc96510becf3d39ebd821e55bc6fc9a16e82a66232694e",
+      "status": "success",
+      "blockNumber": 60992659,
+      "gasUsed": "79370",
+      "gasPriceWei": "155"
+    },
+    {
+      "label": "r5-settle",
+      "hash": "0x7203c801dc7329ccb8cba0312898bcbd29acee35d42b5f4d58748b743a41d061",
+      "status": "success",
+      "blockNumber": 60992683,
+      "gasUsed": "292085",
+      "gasPriceWei": "155"
+    },
+    {
+      "label": "withdraw-member-1",
+      "hash": "0x300de66382b9075d46f45149461fa544e9e84b65443bfd8bf02ced2a873928fa",
+      "status": "success",
+      "blockNumber": 60992691,
+      "gasUsed": "53342",
+      "gasPriceWei": "156"
+    },
+    {
+      "label": "withdraw-member-2",
+      "hash": "0x50025bd584209432c6c34afc89d53d8a4a949e9bd8369679c61c9f723c77d805",
+      "status": "success",
+      "blockNumber": 60992697,
+      "gasUsed": "53342",
+      "gasPriceWei": "156"
+    },
+    {
+      "label": "withdraw-member-3",
+      "hash": "0x3a4f2f2ee0ccaa08a7df18db7b59fafa233ed726b5277c21726400827abf1e1e",
+      "status": "success",
+      "blockNumber": 60992702,
+      "gasUsed": "53342",
+      "gasPriceWei": "155"
+    },
+    {
+      "label": "withdraw-member-4",
+      "hash": "0xb8599ad8b49be04a74e278644dc184eb554b583e1eb500da235e0b27e87bb0d6",
+      "status": "success",
+      "blockNumber": 60992707,
+      "gasUsed": "53342",
+      "gasPriceWei": "155"
+    },
+    {
+      "label": "withdraw-member-5",
+      "hash": "0xc42cf84dc93a4c4814c40ae0e450560409278855c0a38848a5a9f55053bdddf8",
+      "status": "success",
+      "blockNumber": 60992714,
+      "gasUsed": "50530",
+      "gasPriceWei": "155"
+    },
+    {
+      "label": "return-unused-member-2",
+      "hash": "0x77eb1b67f2edb8cc71c05fc0732bb8e4b77803cb8bf692b25bcd08f706a14f37",
+      "status": "success",
+      "blockNumber": 60992721,
+      "gasUsed": "21000",
+      "gasPriceWei": "465"
+    },
+    {
+      "label": "return-unused-member-3",
+      "hash": "0x8ef6c43aa49e66fb30bea226c7847db1b0014c693f61be65f80b7733ff9be880",
+      "status": "success",
+      "blockNumber": 60992725,
+      "gasUsed": "21000",
+      "gasPriceWei": "465"
+    },
+    {
+      "label": "return-unused-member-4",
+      "hash": "0xa058472b07b5a2d40907b2f279b51989bff9783442550c9cbe084fb9b4c5e7be",
+      "status": "success",
+      "blockNumber": 60992726,
+      "gasUsed": "21000",
+      "gasPriceWei": "465"
+    },
+    {
+      "label": "return-unused-member-5",
+      "hash": "0x506433f0bafecc6b2c8220141725deb0f5aa50c99f0519dd2407c9b25db979e0",
+      "status": "success",
+      "blockNumber": 60992731,
+      "gasUsed": "21000",
+      "gasPriceWei": "465"
+    },
+    {
+      "label": "return-unused-member-1",
+      "hash": "0x56d3ec3a5a5373915f640a05c328fdd0652ef8164c785b52cccb90320145570c",
+      "status": "success",
+      "blockNumber": 60992737,
+      "gasUsed": "21000",
+      "gasPriceWei": "465"
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "winner": "0xa29727D02Eae69bF10Ee311cD365eB9f2B076ed1",
+      "discountWei": "0",
+      "dividendWei": "0",
+      "commissionWei": "0",
+      "slashedWei": "0"
+    },
+    {
+      "round": 2,
+      "winner": "0x3A984fb2ADB8Ef4C3d3d3319Bb1F193bcD52a298",
+      "discountWei": "1000000000000000",
+      "dividendWei": "237500000000000",
+      "commissionWei": "50000000000000",
+      "slashedWei": "1000000000000000"
+    },
+    {
+      "round": 3,
+      "winner": "0xd0B4B02eB8482cF703df9D1A7cAb043b99bb3839",
+      "discountWei": "1000000000000000",
+      "dividendWei": "237500000000000",
+      "commissionWei": "50000000000000",
+      "slashedWei": "0"
+    },
+    {
+      "round": 4,
+      "winner": "0x7ACbaaE5E62F5a6792A67d3dE295a854D26f2E26",
+      "discountWei": "1000000000000000",
+      "dividendWei": "237500000000000",
+      "commissionWei": "50000000000000",
+      "slashedWei": "0"
+    },
+    {
+      "round": 5,
+      "winner": "0x61E0bf472500131c500a6B11FA2Ac1374256b0C3",
+      "discountWei": "1000000000000000",
+      "dividendWei": "237500000000000",
+      "commissionWei": "50000000000000",
+      "slashedWei": "0"
+    }
+  ],
+  "failures": [
+    "round 1: reverse auction discount matches reveal",
+    "round 1: exact dividend credit",
+    "round 2 missed payment slashed exactly 0.0007625 AVAX"
+  ],
+  "status": "completed-with-failures",
+  "startedAt": "2026-11-12T18:56:52.072Z",
+  "runId": 2,
+  "rpc": "https://avalanche-fuji-c-chain-rpc.publicnode.com",
+  "returnMode": "user-refund",
+  "chit": "0x63e080868dfBD688eEb9f4B8c2F652B045F79209",
+  "bids": {},
+  "error": "read ECONNRESET",
+  "interruptions": [
+    {
+      "error": "read ECONNRESET",
+      "resumedAt": "2026-11-13T07:58:01.430Z"
+    }
+  ],
+  "finishedAt": "2026-11-13T08:07:42.048Z"
+}

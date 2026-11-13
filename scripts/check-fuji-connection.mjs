@@ -1,0 +1,15 @@
+import {createPublicClient} from 'viem';
+import {avalancheFuji} from 'viem/chains';
+import {fujiTransport} from '../src/fuji-network.mjs';
+import {readFileSync} from 'node:fs';
+const abi=JSON.parse(readFileSync('artifacts/Chit.json','utf8')).abi;
+const client=createPublicClient({chain:avalancheFuji,batch:{multicall:{wait:25,batchSize:8192}},transport:fujiTransport()});
+const blockNumber=await client.getBlockNumber();
+const address='0x63e080868dfBD688eEb9f4B8c2F652B045F79209';
+const read=(functionName,args=[])=>client.readContract({address,abi,functionName,args,blockNumber});
+const keys=['name','foreman','capacity','contribution','roundLength','commissionBps','enrollmentDeadline','currentRound','roundStart','phase','collateralRequired','pot','memberCount'];
+const v=Object.fromEntries(await Promise.all(keys.map(async k=>[k,await read(k)])));
+const members=await Promise.all(Array.from({length:Number(v.memberCount)},(_,i)=>read('members',[BigInt(i)])));
+await Promise.all(members.flatMap(a=>['standing','due','claimable'].map(k=>read(k,[a]))));
+if(v.phase!==5n||members.length!==5)throw Error('Unexpected live state');
+console.log(JSON.stringify({chainId:await client.getChainId(),blockNumber:String(blockNumber),circle:v.name,phase:Number(v.phase),members:members.length,readOnly:true}));

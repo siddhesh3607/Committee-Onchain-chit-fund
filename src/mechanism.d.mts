@@ -1,0 +1,12 @@
+export const CONTRIBUTION: bigint;
+export const CAPACITY: number;
+export const NAMES: string[];
+export type SimMember = {id:number;name:string;credit:bigint;collateral:bigint;prize:bigint;cashPaid:bigint;paid:boolean;won:boolean;committed:boolean;revealed:boolean;bid:bigint};
+export type SimResult = {round:number;winner:number;name:string;discount:bigint;slashed:bigint;prize:bigint;dividend:bigint;commission:bigint};
+export type SimState = {round:number;phase:'contribute'|'commit'|'reveal'|'settle'|'result'|'complete';pool:bigint;commission:bigint;balance:bigint;members:SimMember[];history:SimResult[];events:{round:number;title:string;detail:string}[];withhold:boolean};
+export function splitDiscount(pot:bigint,discount:bigint,members:number,feeBps?:bigint):{prize:bigint;dividend:bigint;commission:bigint};
+export function netPayment(credit:bigint,contribution?:bigint):bigint;
+export function makeSimulation():SimState;
+export function advanceSimulation(state:SimState,options?:{missRoundTwo?:boolean;customBid?:bigint;withhold?:boolean}):SimState;
+export function simulationLiabilities(state:SimState):bigint;
+export function receiptSvg(input:{circle:string;round:number;winner:string;prize:string;dividend:string;slashed:string;simulation:boolean}):string;

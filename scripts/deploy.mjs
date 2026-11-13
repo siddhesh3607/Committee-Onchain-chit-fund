@@ -1,0 +1,16 @@
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {createPublicClient,createWalletClient,http} from 'viem';
+import {privateKeyToAccount} from 'viem/accounts';
+import {avalancheFuji} from 'viem/chains';
+if(!process.env.DEPLOYER_PRIVATE_KEY) throw Error('Set DEPLOYER_PRIVATE_KEY in the process environment. Never paste keys in chat.');
+const account=privateKeyToAccount(process.env.DEPLOYER_PRIVATE_KEY);
+const transport=http(process.env.FUJI_RPC_URL||avalancheFuji.rpcUrls.default.http[0]);
+const publicClient=createPublicClient({chain:avalancheFuji,transport});
+if(await publicClient.getChainId()!==43113) throw Error('Refusing non-Fuji deployment');
+const wallet=createWalletClient({account,chain:avalancheFuji,transport});
+const artifact=JSON.parse(readFileSync('artifacts/ChitFactory.json'));
+const hash=await wallet.deployContract(artifact); const receipt=await publicClient.waitForTransactionReceipt({hash});
+if(receipt.status!=='success') throw Error('Deployment reverted');
+mkdirSync('deployments',{recursive:true});
+writeFileSync('deployments/fuji.json',JSON.stringify({chainId:43113,factory:receipt.contractAddress,transactionHash:hash},null,2));
+console.log('Factory:',receipt.contractAddress,'Transaction:',hash);

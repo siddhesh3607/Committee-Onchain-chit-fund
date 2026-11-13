@@ -1,0 +1,10 @@
+[profile.default]
+src = "contracts"
+test = "test/foundry"
+solc_version = "0.8.30"
+evm_version = "paris"
+optimizer = true
+optimizer_runs = 200
+
+[rpc_endpoints]
+fuji = "https://api.avax-test.network/ext/bc/C/rpc"

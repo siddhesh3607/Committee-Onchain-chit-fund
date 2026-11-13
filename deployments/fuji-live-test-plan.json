@@ -1,0 +1,19 @@
+{
+  "chainId": 43113,
+  "factory": "0xb669cf7b3938df35938e0b813cf4ce61258a31da",
+  "fundingAddress": "0xa29727D02Eae69bF10Ee311cD365eB9f2B076ed1",
+  "fundingAmountTestAVAX": "0.1",
+  "members": [
+    "0xa29727D02Eae69bF10Ee311cD365eB9f2B076ed1",
+    "0x3A984fb2ADB8Ef4C3d3d3319Bb1F193bcD52a298",
+    "0xd0B4B02eB8482cF703df9D1A7cAb043b99bb3839",
+    "0x7ACbaaE5E62F5a6792A67d3dE295a854D26f2E26",
+    "0x61E0bf472500131c500a6B11FA2Ac1374256b0C3"
+  ],
+  "contributionTestAVAX": "0.001",
+  "collateralPerMemberTestAVAX": "0.005",
+  "roundLengthSeconds": 120,
+  "rounds": 5,
+  "returnAddress": "0x5f37c2fc7411c121351c849ad5a3f706d8c73ed2",
+  "keyStorage": "Windows user-bound DPAPI encrypted file in work; not included in source or deliverables"
+}
